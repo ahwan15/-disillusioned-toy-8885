@@ -62,7 +62,7 @@ function renderdata(data) {
   let btn = document.querySelectorAll("#addtocart");
   for (let addCardBtn of btn) {
     addCardBtn.addEventListener("click", function (e) {
-    //   alert("Added On cart Page")
+      // alert("Added On cart Page")
       cartcard_data(e.target.dataset.id);
     });
   }
