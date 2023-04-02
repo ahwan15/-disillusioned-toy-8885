@@ -162,3 +162,4 @@ async function wishlistcard_data(id) {
   {
     window.location.href="./html/payment.html"
   }
+
